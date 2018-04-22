@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+	height: 100%;
+}
+a{
+    text-decoration: none;
+	color: blue;
+}
+
+#wrapper{
+    background-color:white;
+	height: 100%;
+    max-width: auto;
+	max-height: auto;
+    margin: 0 auto;
+}
+
+section {
+	min-height: 100%;
+	display: flex;
+}
+
+nav {
+	background-color:#4d4dff;
+	flex:1;
+	padding: 5px;
+	min-height: 400px;
+	
+}
+
+#menu {
+	position: fixed;
+	padding: 5px;
+	max-width: 23%;
+}
+
+#link_menu {
+	padding-bottom: 10px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+article {
+	padding: 5px;
+	background-color:#b3b3ff;
+	flex:3;
+	max-width: 77%;
+}
+
+#link {
+	padding-bottom: 5px;
+}
+
+#nawigacja{
+	padding-bottom: 10px;
+    display:flex;
+	
+}
+
+#sterowanie{
+    flex: 10;
+}
+
+#sterowanie a{
+    padding: 5px;
+}
+
+#odstep{
+    flex: 7;
+}
